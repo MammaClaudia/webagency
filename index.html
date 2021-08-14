@@ -8,31 +8,33 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 </head>
 <body>
     <section class="nav-bar">
         <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container-fluid">
+            <!--div class="container-fluid"-->
               <a class="navbar-brand" href="#"><img src="imag/demo-logo.png" alt=""></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
+                <ul class="navbar-nav md-auto">
                   <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">HOME</a>
+                    <a class="nav-link" aria-current="page" href="#top">HOME</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">SERVICES</a>
+                    <a class="nav-link" href="#services">SERVICES</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">ABOUT US</a>
+                    <a class="nav-link" href="#about-us">ABOUT US</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">TESTIMONIAL</a>
+                    <a class="nav-link" href="#testimonials">TESTIMONIALS</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">CONTACT</a>
+                    <a class="nav-link" href="#footer">CONTACT</a>
                   </li>
                 </ul>
               </div>
@@ -82,6 +84,90 @@
             <button type="button" class="btn btn-primary">All services</button>
         </div>
     </section>
+    <!---About Us--->
+    <section id="about-us">
+        <div class="container">
+            <h2 class="title text-center about-us">WHY CHOOSE US?</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="about-title">Why we're different</p>
+                    <ul>
+                        <li>Believe in doing business whith honesty</li>
+                        <li>Believe in doing business whith honesty</li>
+                        <li>Believe in doing business whith honesty</li>
+                        <li>Believe in doing business whith honesty</li>
+                        <li>Believe in doing business whith honesty</li>
+                        <li>Believe in doing business whith honesty</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <img src="imag/network.png" alt="network">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Testimonials-->
+    <section id="testimonials">
+        <div class="container">
+            <h2 class="text-title text-center">
+                WHAT CLIENTS SAY ABOUT US
+            </h2>
+            <div class="row">
+                <div class="col-md-5 testimonials">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores excepturi soluta itaque perferendis explicabo quos, blanditiis eius recusandae temporibus eligendi, suscipit optio, sint qui corporis cumque officia quis dolorum laborum!    </p>
+                    <img src="imag/user1.jpg" alt="user">
+                    <p class="user-details"><b>Angelina </b><br> Co-founder at Xyz</p>
+                    </p>
+                    </div>
+
+                    <div class="col-md-5 testimonials">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores excepturi soluta itaque perferendis explicabo quos, blanditiis eius recusandae temporibus eligendi, suscipit optio, sint qui corporis cumque officia quis dolorum laborum!    </p>
+                        <img src="imag/user2.jpg" alt="user">
+                        <p class="user-details"><b>Albert </b><br> Co-founder at Ryz</p>
+                        </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--social-media section-->
+    <section id="social-media">
+        <div class="container text-center">
+            <p>FIND US ON SOCIAL MEDIA</p>
+            <div class="social-icons">
+                <a href=""><img src="imag/facebook-icon.png" alt=""></a>
+                <a href=""><img src="imag/twitter-icon.png" alt=""></a>
+                <a href=""><img src="imag/instagram-icon.png" alt=""></a>
+                <a href=""><img src="imag/linkedin-icon.png" alt=""></a>
+                <a href=""><img src="imag/snapchat-icon.png" alt=""></a>
+                <a href=""><img src="imag/whatsapp-icon.png" alt=""></a>
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+        <img src="imag/wave2.png" class="footer-img" alt="">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 footer-box">
+                    <img src="imag/demo-logo.png" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta fugit placeat eum tempore. Assumenda sint officia, ipsum praesentium, consequatur alias beatae quaerat ratione deleniti recusandae unde, magnam modi quos laboriosam?</p>
+                </div>
+                <div class="col-md-4 footer-box">
+                    <p><b>CONTACT US</b></p>
+                    <p><i class="bi bi-geo-alt-fill"></i>World Trade Center</p>
+                    <p><i class="bi bi-telephone-fill"></i>+33 12345678</p>
+                    <p><i class="bi bi-envelope-fill"></i>e-mail: dfguh@kjojk.com</p>
+                </div>
+                <div class="col-md-4 footer-box">
+                    <p><b>SUBSCRIBE NEWSLETTER</b></p>
+                    <input type="email" class="form-conterol" placeholder="Your mail">
+                    <button type="button" class="btn btn-primary">Subscribe</button>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Created with <i class="bi bi-suit-heart-fill"></i> by C2Ddesign</p>
+    </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
 </body>
 </html>
